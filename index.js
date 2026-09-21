@@ -40,10 +40,10 @@ function playGame(){
       const humanSelection = getHumanChoice();
       const computerSelection = getComputerChoice();
       playRound(humanSelection, computerSelection);
-      console.log(`Skor -> Kamu: ${humanScore} | Komputer: ${computerScore}`);
+      console.log(`Score -> you: ${humanScore} | Computer: ${computerScore}`);
     }
       console.log("=== Hasil Akhir ===");
-      console.log(`Skor Akhir -> Kamu: ${humanScore} | Komputer: ${computerScore}`);
+      console.log(`Final Score -> you: ${humanScore} | Computer: ${computerScore}`);
 }
 
 playGame()
